@@ -1,16 +1,50 @@
 
 body{
-    background: rgb(248, 248, 245)
-
+   
 
     }
      
 
     header{
-        margin-top: 50px;
+        margin-top: 30px;
+      
+        
     }
    
-    .menu{
+
+.imgprin{
+    margin-bottom: -10px;
+}
+   
+.MENU ul{
+background: black;
+list-style: none;
+
+
+}
+
+.MENU ul li{
+    display: inline;
+}
+.MENU ul li a{
+    padding: 20px  80px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.MENU ul li a:hover{ 
+    color:greenyellow;
+}
+
+
+
+
+
+
+   /* .menu{
         color: rgb(16, 114, 16);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin-left: 50px;
@@ -19,7 +53,7 @@ body{
       margin-right: 1800;
       text-align : left;
         
-    }
+    }*/
    
    
    
@@ -71,6 +105,7 @@ body{
 
 .curio{
     margin-left: 180px;
+    margin-top: -5px;
 }
 
 
